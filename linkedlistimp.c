@@ -241,7 +241,7 @@ int main() {
         case 7:
         {
             int p,x;
-            printf("Enter position and element to be added\n");
+            printf("Enter the element before the data to be added and element to be added\n");
             scanf("%d%d",&p,&x);
             InsertMid(p,x,L);
             printf("The modified list is\n");
