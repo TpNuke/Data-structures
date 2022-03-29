@@ -100,7 +100,7 @@ void InsertMid(int p, int e,List l)
 {
     NewNode =(struct node *) malloc(sizeof(struct node));
     Position P;
-    P = Find(p,L);
+    P = Find(p,l);
     NewNode->data = e;
     NewNode->next = P->next;
     P->next = NewNode;
